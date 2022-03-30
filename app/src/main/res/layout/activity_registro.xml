@@ -10,7 +10,7 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="400dp"
+        android:layout_width="380dp"
         android:layout_height="103dp"
         android:text="REGISTRO DE ESTUDIANTE"
         android:textAlignment="center"
@@ -30,9 +30,10 @@
         android:hint="Ingrese su Documento"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.242"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.149" />
+        app:layout_constraintVertical_bias="0.167" />
 
     <EditText
         android:id="@+id/txtMateria5"
@@ -111,6 +112,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.501" />
 
+
     <EditText
         android:id="@+id/txtNombre"
         android:layout_width="343dp"
@@ -118,11 +120,10 @@
         android:hint="Ingrese su Nombre completo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintHorizontal_bias="0.235"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.224" />
-
+        app:layout_constraintVertical_bias="0.23" />
 
     <EditText
         android:id="@+id/txtTelefono"
@@ -132,10 +133,10 @@
         android:inputType="number"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.833"
+        app:layout_constraintHorizontal_bias="0.92"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.306" />
+        app:layout_constraintVertical_bias="0.308" />
 
     <EditText
         android:id="@+id/txtMateria2"
@@ -210,10 +211,10 @@
         android:inputType="number"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.108"
+        app:layout_constraintHorizontal_bias="0.053"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.308" />
+        app:layout_constraintVertical_bias="0.307" />
 
     <Button
         android:id="@+id/btn_registrar"

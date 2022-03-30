@@ -68,7 +68,7 @@ class EstadisticasActivity : AppCompatActivity() {
         var cantidad = 0
         for (est in lista){
             if (est.resultado.equals("Usted ganó el periodo")){
-                cantidad = cantidad + 1
+                cantidad =+ 1
             }
         }
         return cantidad
