@@ -9,7 +9,7 @@ class AyudaActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_ayuda)
 
-        var botonSalir: Button =findViewById(R.id.btn_salirAyu)
+        var botonSalir: Button =findViewById(R.id.btnSalir)
         botonSalir.setOnClickListener{salir()}
     }
 
